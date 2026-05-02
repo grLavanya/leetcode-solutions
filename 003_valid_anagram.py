@@ -3,6 +3,7 @@ class Solution:
         if len(s) != len(t):
             return False
         else:
-            if sorted(s) != sorted(t):
-                return False
+            for ch in set(s):
+                if t.count(ch) != s.count(ch):
+                    return False
             return True
