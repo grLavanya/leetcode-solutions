@@ -1,5 +1,7 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+        if prices == []:
+            return 0
         min_price = float('inf')
         max_profit = 0.00
         
