@@ -3,6 +3,27 @@
 # Link: leetcode.com/problems/contains-duplicate/
 # ============================================
 
+'''
+My Submissions:
+1. Using nested loops to compare each element with every other element.
+(Approach 1)
+# Note: This got Time Limit Exceeded on LeetCode for large inputs!
+---------------------------
+2. Using a set to track seen numbers. If a number is already in the set, return True.
+    Time: O(n) | Space: O(n)
+# There is a possibility that this method can be fatser because it stops executing as soon as
+# a duplicate is found, while the set conversion method always processes the entire list.
+---------------------------
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        s = set()
+        for num in nums:
+            if num in s:
+                return True
+            s.add(num)
+        return False
+'''
+
 # ---------------------------
 # Approach 1: Brute Force
 # Time: O(n²) | Space: O(1)
