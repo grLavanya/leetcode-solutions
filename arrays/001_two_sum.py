@@ -22,6 +22,7 @@
 # ---------------------------
 # Approach 2: Two-pass Hash Table
 # Time: O(n) | Space: O(n)
+'''This was my submission.'''
 # ---------------------------
 # Loop 1: store every number and its index in a dictionary.
 # Loop 2: for each number, check if its complement exists in the dictionary.
