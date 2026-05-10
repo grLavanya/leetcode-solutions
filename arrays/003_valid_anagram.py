@@ -76,7 +76,7 @@ class Solution:
 
 # What I learned:
 # - Although sorting is instinctively the method we first think of,
-# - using Counter is more efficient — it counts character frequencies
-# - in one single pass, reducing time complexity from O(n log n) to O(n).
+# using Counter is more efficient — it counts character frequencies
+# in one single pass, reducing time complexity from O(n log n) to O(n).
 # - In simple words:
 # - Using Counter from collections is a clean and efficient way to solve this problem.
